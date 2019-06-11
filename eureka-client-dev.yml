@@ -12,6 +12,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1001/eureka/
-myname: dragonsYoung
+myname: dragonsYoung Xu
 
 
