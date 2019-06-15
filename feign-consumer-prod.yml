@@ -1,0 +1,13 @@
+﻿server: 
+  port: 4001
+spring:
+  application:
+    name: feign-consumer
+  profiles: 
+    active: "@activatedProperties@"
+  zipkin:
+    base-url: http://172.4.6.4:9411
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.4.6.1:1001/eureka/  
