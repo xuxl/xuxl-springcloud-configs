@@ -7,6 +7,10 @@ spring:
     active: "@activatedProperties@"
   zipkin:
     base-url: http://172.4.6.4:9411
+  redis:
+    sentinel:
+      master: mymaster
+      nodes: 120.78.76.207:6379,120.78.76.207:6380,120.78.76.207:6381
 eureka:
   client:
     serviceUrl:
